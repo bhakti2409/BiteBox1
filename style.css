@@ -396,3 +396,40 @@ tr{
     transform: translateY(-8px);
 }
 
+.deals-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.deal-card{
+    background:white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.deal-card span{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px ;
+    background: black;
+    color: white;
+    border-radius: 5px;
+
+}
+.deal-card:hover{
+    transform: translateY(-8px);
+}
+
+.red{
+    border-top: 5px solid red;
+}
+
+.yellow{
+    border-top: 5px solid yellow;
+}
+
+.green{
+    border-top: 5px solid green;
+}
+
